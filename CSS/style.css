@@ -1,0 +1,152 @@
+body {
+  font-family: "LatoRegular";
+}
+
+#header {
+  padding: 2em;
+}
+
+#header .nav {
+  text-align: right;
+}
+#header .nav a {
+  text-decoration: none;
+  padding: 0 1em;
+  color: rgb(29, 29, 29);
+}
+#header .nav a:hover {
+  color: rgb(32, 146, 161);
+}
+
+#header .bg {
+  background: linear-gradient(green, rgb(205, 255, 24));
+  margin: 1em;
+  min-height: 300px;
+  text-align: center;
+}
+#header .bg-blue {
+  background: linear-gradient(rgb(85, 178, 255), rgb(192, 90, 175));
+  margin: 1em;
+  min-height: 500px;
+  text-align: center;
+}
+#header .bg-wine {
+  background: linear-gradient(rgb(255, 114, 49), rgb(170, 0, 0));
+  margin: 1em;
+  min-height: 300px;
+  text-align: center;
+}
+
+#header .bg h1 {
+  padding: 0em;
+  font-size: 4em;
+}
+
+#conteudo {
+  padding: 0 0 4em 0;
+}
+
+#conteudo h3 {
+  padding: 1.5em;
+  font-size: 1.5em;
+}
+
+#conteudo p {
+  padding: 0;
+}
+
+#conteudo .dir {
+  float: right;
+  transform: scaleX(1);
+}
+
+#conteudo .dir .texto {
+  float: right;
+  transform: scaleX(1);
+}
+
+#footer {
+  background: rgb(65, 65, 65);
+  color: #fff;
+  padding: 1em;
+  margin: 2;
+}
+
+footer .social {
+  text-align: right;
+  margin: 1em 0 0;
+}
+
+#footer .social a {
+  padding: 0 1em;
+  text-decoration: none;
+  color: #fff;
+}
+#footer .social a:hover {
+  text-decoration: underline;
+}
+
+.img-tamanho {
+  max-width: 100%;
+}
+
+.titulo {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+  background: #ececec;
+  border: 3px solid #ccc;
+  box-shadow: 0 0 40px #ccc;
+  color: #000000;
+}
+
+.btn.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn.btn-red {
+  background: rgb(151, 10, 10);
+  border: rgb(255, 80, 36);
+  box-shadow: 0 0 40px rgb(255, 80, 36);
+  color: #fff;
+}
+
+.btn.btn-green {
+  background: #57ff15;
+  border: rgb(205, 255, 24);
+  box-shadow: 0 0 40px rgb(205, 255, 24);
+  color: #fff;
+}
+
+.btn.btn-purple {
+  background: rgb(177, 0, 221);
+  border: rgb(243, 81, 208);
+  box-shadow: 0 0 40px rgb(255, 142, 231);
+  color: #fff;
+}
+
+.centro {
+  text-align: center;
+  padding: 1em 0;
+}
+
+.form-group {
+  margin-bottom: 1em;
+  text-align: center;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  line-height: 1.4;
+  padding: 0.2em 0.2em;
+  border: 1px solid #ecececec;
+  border-radius: 0.3em;
+}
