@@ -113,10 +113,11 @@ footer .social {
 }
 
 .btn.btn-red {
-  background: rgb(151, 10, 10);
-  border: rgb(255, 80, 36);
-  box-shadow: 0 0 40px rgb(255, 80, 36);
-  color: #fff;
+  width: 4%;
+  background: #ececec(255, 157, 29);
+  border: #ccc(255, 80, 36);
+  box-shadow: 0 0 40px #ccc(255, 80, 36);
+  color: #000000;
 }
 
 .btn.btn-green {
@@ -149,4 +150,11 @@ footer .social {
   padding: 0.2em 0.2em;
   border: 1px solid #ecececec;
   border-radius: 0.3em;
+}
+
+.pessoa {
+  height: 450px;
+  background-color: #8d8d8d;
+  padding: 2em;
+  margin: 1;
 }
